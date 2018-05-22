@@ -21,16 +21,17 @@ function addToCart(item) {
 
 function viewCart() {
   var a = 'In your cart, you have '
-  var b = a +=`${cart[0].itemName} at $${cart[0].itemPrice}, `
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   }
-  if (cart.length === 1) {
-    return b.slice(0, b.length-2) +'.'
-  }
   else {
-    for (var i = 1; i < cart.length; i+=1) {
-      b+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
+    for (var i = 0; i < cart.length; i+=1) {
+      if (i+1 === cart.length) {
+        a+= `and ${cart[i].itemName} at $${cart[i].itemPrice}.`
+      }
+      else {
+      a+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
+    }
     }
   var c = b.slice(0, b.length-2)
   return c + '.'
