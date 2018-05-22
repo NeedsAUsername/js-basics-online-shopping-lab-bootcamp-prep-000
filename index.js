@@ -55,6 +55,7 @@ function removeFromCart(item) {
       cart.splice([i],1)
       checkCart = 'removed'
     }
+    else{}
   if (checkCart === 'not in cart') {
     return 'That item is not in your cart.'
   }   
