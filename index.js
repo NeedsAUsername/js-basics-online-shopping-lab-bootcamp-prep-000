@@ -1,7 +1,7 @@
 var cart = [];
 
 function getCart(name) {
-  var newObj = {name: name.price)
+  var newObj = {name: Math.random())
 
  return cart;
 }
