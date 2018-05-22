@@ -26,7 +26,7 @@ function viewCart() {
   }
   else {
     for (var i = 0; i < cart.length; i+=1) {
-      default+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
+      a+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
   return a
   }
