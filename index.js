@@ -44,4 +44,4 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-viewCart()
+console.log(viewCart())
