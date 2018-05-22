@@ -30,7 +30,7 @@ function viewCart() {
   }
   else {
     for (var i = 1; i < cart.length; i+=1) {
-      b+= `and ${cart[i].itemName} at $${cart[i].itemPrice}, `
+      b+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
   var c = b.slice(0, b.length-2)
   return c + '.'
