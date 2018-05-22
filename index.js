@@ -66,3 +66,9 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+addToCart("vanilla");
+addToCart("watermelon");
+addToCart("yams");
+removeFromCart("watermelon");
+removeFromCart("yams")
+console.log(cart)
