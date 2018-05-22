@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var newObj = {
-   item: 
+   item: math.floor
  };
 }
 
