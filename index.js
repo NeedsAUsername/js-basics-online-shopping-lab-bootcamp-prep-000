@@ -44,4 +44,5 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
+addToCart('Apple')
 console.log(viewCart())
