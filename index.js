@@ -50,7 +50,6 @@ function total() {
 
 function removeFromCart(item) {
   var checkCart = 'not in cart'
-  var startlength = cart.length
   for (var i = 0; i<startlength; i+=1) {
     if (cart[i].itemName === item) {
       cart.splice([i],1)
@@ -61,6 +60,7 @@ function removeFromCart(item) {
     return 'That item is not in your cart.'
   }   
 }
+
 
 
 function placeOrder(cardNumber) {
