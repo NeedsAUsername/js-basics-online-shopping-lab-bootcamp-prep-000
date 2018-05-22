@@ -24,10 +24,11 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   else {
+    var default = 'In your cart, you have '
     for (var i = 0, i < cart.length, i+=1) {
-      return 
+      default+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
-    
+  return default
   }
 }
 
