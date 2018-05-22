@@ -63,5 +63,5 @@ function placeOrder(cardNumber) {
 }
 
 addToCart('Apple')
-removeFromCart('Apple')
+console.log(removeFromCart('Apple'))
 console.log(cart)
