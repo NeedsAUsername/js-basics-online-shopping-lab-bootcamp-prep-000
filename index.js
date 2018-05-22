@@ -33,8 +33,7 @@ function viewCart() {
       a+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
     }
-  var c = b.slice(0, b.length-2)
-  return c + '.'
+  return a
   }
 }
 
