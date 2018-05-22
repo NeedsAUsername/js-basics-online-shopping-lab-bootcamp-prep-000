@@ -14,6 +14,8 @@ function addToCart(item) {
  var newObj = {
    itemName: (Math.floor(Math.random() * 99)+1)
  };
+ cart.push(newObj)
+ return cart
 }
 
 function viewCart() {
