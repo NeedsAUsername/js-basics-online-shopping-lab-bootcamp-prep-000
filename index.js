@@ -29,7 +29,7 @@ function viewCart() {
       a+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
   var b = a.splice(0, a.length-2)
-  return a + '.'
+  return b + '.'
   }
 }
 
