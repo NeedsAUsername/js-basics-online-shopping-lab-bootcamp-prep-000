@@ -1,10 +1,6 @@
 var cart = [];
 
 function getCart(name) {
-  var newObj = {
-    
-  }
-
  return cart;
 }
 
@@ -14,7 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ var newObj = {
+   
+ };
 }
 
 function viewCart() {
