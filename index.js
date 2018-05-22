@@ -35,5 +35,5 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-addToCart('apple')
+console.log(addToCart('apple'))
 console.log(cart)
