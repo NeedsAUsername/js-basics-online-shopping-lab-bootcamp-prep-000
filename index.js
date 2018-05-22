@@ -10,8 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
+  var itemName = item
  var newObj = {
-   item: (Math.floor(Math.random() * 99)+1)
+   itemName: (Math.floor(Math.random() * 99)+1)
  };
 }
 
