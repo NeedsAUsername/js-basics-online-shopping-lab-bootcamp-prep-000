@@ -49,13 +49,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var counter = 0
+  var checkCart = 'not in cart'
   for (var i = 0; i<cart.length; i+=1) {
     if (cart[i].itemName === item) {
       cart.splice([i],1)
-      counter += 1
+      checkCart = 'removed'
     }
-  if (counter === 0) {
+  if (checkCart === 'not in cart') {
     return 'That item is not in your cart.'
   }   
   
