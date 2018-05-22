@@ -6,3 +6,10 @@ math.random() returns random number between 0-1
 y = Math.floor(100)
 
 console.log(y)
+
+
+a = [{itemName: 'apple', itemPrice: 10}]
+
+a.splice(0, 1)
+
+console.log(a)
