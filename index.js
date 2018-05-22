@@ -21,12 +21,12 @@ function addToCart(item) {
 
 function viewCart() {
   var a = 'In your cart, you have '
-  var b = a +=`${cart[0].itemName} at $${cart[0].itemPrice}.`
+  var b = a +=`${cart[0].itemName} at $${cart[0].itemPrice}, `
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   }
   if (cart.length === 1) {
-    return b
+    return b.slice(0, b.length-2) +'.'
   }
   else {
     for (var i = 1; i < cart.length; i+=1) {
