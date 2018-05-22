@@ -25,10 +25,10 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   else {
-    for (var i = 0, i < cart.length, i+=1) {
+    for (var i = 0; i < cart.length; i+=1) {
       default+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
-  return default
+  return a
   }
 }
 
