@@ -52,7 +52,7 @@ function removeFromCart(item) {
   var length = cart.length
   for (var i = 0; i<cart.length; i+=1) {
     if (cart[i].itemName === item) {
-      return 'works'
+      delete cart[i]
     }
     
   }
@@ -63,5 +63,5 @@ function placeOrder(cardNumber) {
 }
 
 addToCart('Apple')
-console.log(removeFromCart('Apple'))
+removeFromCart('Apple')
 console.log(cart)
