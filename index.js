@@ -24,7 +24,10 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   else {
-    for (var i = 0, i < cart.length, i+=1) 
+    for (var i = 0, i < cart.length, i+=1) {
+      return 
+    }
+    
   }
 }
 
