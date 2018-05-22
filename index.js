@@ -1,6 +1,8 @@
 var cart = [];
 
-function getCart() {
+function getCart(name) {
+  var newObj = {name: name.price)
+
  return cart;
 }
 
