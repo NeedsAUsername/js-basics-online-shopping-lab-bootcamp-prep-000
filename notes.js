@@ -10,6 +10,6 @@ console.log(y)
 
 a = [{itemName: 'apple', itemPrice: 10}]
 
+console.log(a)
 a.splice(0, 1)
-
 console.log(a)
