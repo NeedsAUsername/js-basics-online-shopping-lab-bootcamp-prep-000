@@ -20,11 +20,11 @@ function addToCart(item) {
 
 
 function viewCart() {
+  var a = 'In your cart, you have '
   if (cart.length === 0) {
     return "Your shopping cart is empty."
   }
   else {
-    var default = 'In your cart, you have '
     for (var i = 0, i < cart.length, i+=1) {
       default+= `${cart[i].itemName} at $${cart[i].itemPrice}, `
     }
