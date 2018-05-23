@@ -65,7 +65,7 @@ var cardNumber =  Math.floor(Math.random() * 100000000)
 
 function placeOrder(cardNumber) {
  
-    if (a === 8) {
+    if (cardNumber {
       return `Your total cost is ${x}, which will be charged to the card ${cardNumber}.`
     }
     else {
