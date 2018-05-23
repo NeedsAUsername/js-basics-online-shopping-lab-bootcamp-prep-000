@@ -61,7 +61,9 @@ function removeFromCart(item) {
   }   
 }
 
-
+function clearOrder() {
+  cart = []
+}
 
 function placeOrder(cardNumber) {
   var x = total()
@@ -71,7 +73,7 @@ function placeOrder(cardNumber) {
     else {
       return 'Sorry, we don\'t have a credit card on file for you.'
     }
-    cart = []
+  clear()
 }
 
 console.log(cart)
