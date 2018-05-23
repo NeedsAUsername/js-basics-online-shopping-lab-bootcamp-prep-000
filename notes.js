@@ -15,3 +15,13 @@ console.log(a)
 f = 98
 x = f.toString().length
 console.log(x)
+
+var cardNumber =  Math.floor(Math.random() * 100000000)
+
+function ok(cardNumber) {
+  if (cardNumber === true) {
+    console.log('true')
+  }
+}
+
+ok(867)
