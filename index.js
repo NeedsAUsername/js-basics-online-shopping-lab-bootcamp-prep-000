@@ -67,7 +67,7 @@ function clearOrder() {
 
 function placeOrder(cardNumber) {
   var x = total()
-  clear()
+  clearOrder()
     if (Number.isInteger(cardNumber) === true) {
       return `Your total cost is $${x}, which will be charged to the card ${cardNumber}.`
     }
