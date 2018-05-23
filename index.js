@@ -64,8 +64,9 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-    if (cardNumber.length === 16) {
-      var x = total()
+  var x = total()
+  var a = cardNumber.length
+    if (a === 16) {
       return `Your total cost is ${x}, which will be charged to the card ${cardNumber}.`
     }
     else {
