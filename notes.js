@@ -19,7 +19,7 @@ console.log(x)
 var cardNumber =  Math.floor(Math.random() * 100000000)
 
 function ok(cardNumber) {
-  if (Number.isInteger() cardNumber === true) {
+  if (Number.isInteger(cardNumber) === true) {
     console.log('true')
   }
 }
