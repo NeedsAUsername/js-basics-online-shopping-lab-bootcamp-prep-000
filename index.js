@@ -61,7 +61,7 @@ function removeFromCart(item) {
   }   
 }
 
-var cardNumber =  Math.floor(Math.random() * 100000000)
+
 
 function placeOrder(cardNumber) {
   var x = total()
