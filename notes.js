@@ -12,6 +12,6 @@ a.splice(0, 1)
 console.log(a)
 
 
-f = 'log'
+f = 98
 x = f.length
 console.log(x)
