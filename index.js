@@ -74,4 +74,7 @@ function placeOrder(cardNumber) {
     cart = cart.splice(0, cart.length)
 }
 
-
+console.log(cart)
+addtoCart('apple')
+console.log(cart)
+console.log(placeOrder(cardNumber)
