@@ -34,5 +34,5 @@ function test(a) {
   return a
 }
 
-test(2)
+console.log(test(2))
 console.log(a)
