@@ -61,7 +61,7 @@ function removeFromCart(item) {
   }   
 }
 
-
+var cardNumber = Math.floor()
 
 function placeOrder(cardNumber) {
   var x = total()
