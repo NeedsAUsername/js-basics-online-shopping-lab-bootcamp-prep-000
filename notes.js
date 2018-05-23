@@ -14,4 +14,4 @@ console.log(a)
 
 f = 'log'
 x = f.length
-consolo.log(x)
+console.log(x)
