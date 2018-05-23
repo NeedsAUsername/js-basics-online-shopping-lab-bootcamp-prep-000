@@ -66,7 +66,7 @@ var cardNumber =  Math.floor(Math.random() * 100000000)
 function placeOrder(cardNumber) {
   var x = total()
     if (Number.isInteger(cardNumber) === true) {
-      return `Your total cost is ${x}, which will be charged to the card ${cardNumber}.`
+      return `Your total cost is $${x}, which will be charged to the card ${cardNumber}.`
     }
     else {
       return 'Sorry, we don\'t have a credit card on file for you.'
