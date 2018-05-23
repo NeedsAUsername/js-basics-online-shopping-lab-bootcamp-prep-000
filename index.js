@@ -77,4 +77,4 @@ function placeOrder(cardNumber) {
 console.log(cart)
 addtoCart('apple')
 console.log(cart)
-console.log(placeOrder(cardNumber)
+console.log(placeOrder(cardNumber))
