@@ -36,3 +36,20 @@ function test(b) {
 
 console.log(test(2))
 console.log(a)
+
+
+
+
+var cart = [{fruit:'apple'}]
+
+console.log(cart)
+
+function clear() {
+  cart = []
+}
+
+clear()
+console.log(cart)
+
+
+
