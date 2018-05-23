@@ -13,5 +13,5 @@ console.log(a)
 
 
 f = 98
-x = f.tostring()
+x = f.toString()
 console.log(x)
