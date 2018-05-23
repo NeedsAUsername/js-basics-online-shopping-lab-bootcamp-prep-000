@@ -29,9 +29,9 @@ ok(867)
 
 a = 5
 
-function test(a) {
+function test(b) {
   a += 1
-  return a
+  return b
 }
 
 console.log(test(2))
