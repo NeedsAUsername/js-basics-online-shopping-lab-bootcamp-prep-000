@@ -25,3 +25,14 @@ function ok(cardNumber) {
 }
 
 ok(867)
+
+
+a = 5
+
+function test(a) {
+  a += 1
+  return a
+}
+
+test(2)
+console.log(a)
